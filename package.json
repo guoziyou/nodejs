@@ -1,0 +1,21 @@
+{
+  "name": "index",
+  "version": "0.0.1",
+  "description": "Thsi is a node project",
+  "main": "index.js",
+  "author": "kele666",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "bytenode -c main.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "express": "^4.18.2",
+    "bytenode": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
